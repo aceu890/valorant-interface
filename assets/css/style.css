@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* TODO: COMPONENTS */
+/* FIXME: valorant-card */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 3px;
+}
+
+.vertical {
+    width: 10px;
+    height: 150px;
+    background-color: rgb(6, 222, 237);
+    border-radius: 1px;
+}
+
+.container-card {
+    position: relative;
+    background-color: rgb(19, 20, 54);
+    width: 550px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 1px;
+}
+
+.perfil {
+    background-color: red;
+    width: 150px;
+    height: 120px;
+    background-image: url('https://i.pinimg.com/originals/44/86/64/448664607cd5045d8a0120c97bb7f03c.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.perfil:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+
+.poster {
+    background-color: pink;
+    width: 400px;
+    height: 120px;
+    left: 150px;
+    top: 0;
+    position: absolute;
+    background-image: url('https://preview.redd.it/lt5k78uzssk41.png?width=1500&format=png&auto=webp&s=3fc3ffae42bbf74e63377df0f1bd832cb9eeebbf');
+    background-size: cover;
+    background-position: center;
+}
+
+.poster:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+
+.name {
+    background-color: rgb(19, 20, 54);
+    position: absolute;
+    display: flex;
+    left: 10px;
+    gap: 180px;
+    align-items: center;
+    height: 30px;
+    width: 550px;
+    color: white;
+}
+
+.name-1 {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.name2 {
+    color: gray;
+    font-size: 12px;
+}
